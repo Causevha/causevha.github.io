@@ -1,0 +1,9 @@
+.navbar {
+    background-image: url("./images/image-hero-desktop.jpg");
+}
+
+.btn {
+    background-color: hsl(176, 50%, 47%); 
+    border-radius: 30px;
+    color: white;
+}
