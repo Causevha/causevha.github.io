@@ -1,9 +1,47 @@
-.navbar {
+:root {
+    --primary-moderate-cyan: hsl(176, 50%, 47%);
+    --primary-dark-cyan: hsl(176, 72%, 28%);
+    --neutral-black: hsl(0, 0%, 0%);
+    --neutral-dark-gray: hsl(0, 0%, 48%);
+}
+
+* {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    color: var(--neutral-dark-gray);
+}
+
+.navbar{
     background-image: url("./images/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+    padding: 44px 166px;
+}
+
+.navbar li {
+    font-size: 0.8rem;
+}
+
+.navbar ul {
+    gap: 30px;
 }
 
 .btn {
-    background-color: hsl(176, 50%, 47%); 
-    border-radius: 30px;
+    background-color: var(--primary-moderate-cyan);
     color: white;
+    font-weight: 500;
+    padding: 15px 40px;
+}
+
+.card {
+    border-color: hsla(0, 0%, 48%, 0.2);
+    border-radius: 8px;
+}
+
+.card-1 .card-text {
+    margin-bottom: -80px;
 }
